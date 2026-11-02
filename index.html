@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maaz Bin Irfan — Full-Stack, Automation &amp; Homelab Engineer</title>
+  <meta name="description" content="Portfolio of Maaz Bin Irfan: Software Engineer specializing in n8n automation pipelines, autonomous Playwright bots, React Native mobile apps, and self-hosted Linux infrastructure.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       NAVIGATION
+       ========================================================================= -->
+  <header class="site-nav">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="nav-logo">
+          <span class="logo-avatar">
+            <!-- Bolt Icon -->
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </span>
+          <span>Maaz Bin Irfan</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#spotlight">n8n Pipeline</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="Maaz_Bin_Irfan_CV.pdf" download class="btn btn-primary btn-sm">
+            <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span>Download CV</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       HERO SECTION
+       ========================================================================= -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left Column: Copy & Actions -->
+        <div class="hero-content">
+          <div class="hero-speech-bubble">
+            <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            <span>Hello, I'm Maaz</span>
+          </div>
+
+          <h1 class="hero-title">
+            I engineer <span class="highlight-amber">full-stack apps</span>, automated pipelines, and <span class="highlight-sky">autonomous bots</span>.
+          </h1>
+
+          <p class="hero-desc">
+            Computer Science student (4th Semester) combining core systems engineering with <strong>n8n automation pipelines</strong>, <strong>Playwright multi-agent bots</strong>, and real-time mobile software. Backed by a 24/7 self-hosted Linux Docker homelab.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              <span>Explore Projects</span>
+            </a>
+            
+            <button type="button" class="email-copy-pill js-copy-email" title="Click to copy email">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <span>maaz2501p@gmail.com</span>
+            </button>
+          </div>
+
+          <!-- Cartoon Sticker Pins -->
+          <div class="hero-stickers">
+            <span class="sticker sticker-sky">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              <span>35-Node n8n Specialist</span>
+            </span>
+            <span class="sticker sticker-coral">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Zero-Billing Map Architect</span>
+            </span>
+            <span class="sticker sticker-amber">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8.01" y2="16"/><line x1="16" y1="16" x2="16.01" y2="16"/></svg>
+              <span>Multi-Agent Playwright Dev</span>
+            </span>
+            <span class="sticker sticker-matcha">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+              <span>Bare-Metal Linux Server</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Right Column: Visual Telemetry Card -->
+        <div class="hero-visual">
+          <div class="hero-visual-card">
+            <div class="hero-visual-header">
+              <div class="window-dots">
+                <span class="window-dot dot-red"></span>
+                <span class="window-dot dot-yellow"></span>
+                <span class="window-dot dot-green"></span>
+              </div>
+              <div class="status-badge">
+                <span class="status-dot"></span>
+                <span>OPEN TO WORK &bull; INTERNSHIP</span>
+              </div>
+            </div>
+
+            <!-- Homelab Terminal Box -->
+            <div class="telemetry-list">
+              <div class="telemetry-item">
+                <span class="label">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>Location</span>
+                </span>
+                <span class="value">Rahim Yar Khan, PK</span>
+              </div>
+              <div class="telemetry-item">
+                <span class="label">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                  <span>Degree</span>
+                </span>
+                <span class="value">BS Computer Science (4th Sem)</span>
+              </div>
+              <div class="telemetry-item">
+                <span class="label">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  <span>Core Focus</span>
+                </span>
+                <span class="value">n8n &bull; Python &bull; React Native</span>
+              </div>
+              <div class="telemetry-item">
+                <span class="label">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                  <span>Active Homelab</span>
+                </span>
+                <span class="value">Docker (n8n, Postgres, Redis)</span>
+              </div>
+              <div class="telemetry-item" style="background: var(--accent-butter-light);">
+                <span class="label">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                  <span>Active Stack</span>
+                </span>
+                <span class="value">TypeScript, Playwright &amp; OSRM</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SPOTLIGHT: TRENDRADAR PK (n8n & AUTOMATION DEEP DIVE)
+       ========================================================================= -->
+  <section id="spotlight" class="spotlight-section">
+    <div class="container">
+      <div class="spotlight-card">
+        
+        <div class="spotlight-header">
+          <div>
+            <span class="spotlight-tag">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              <span>Flagship Automation Spotlight</span>
+            </span>
+            <h2 class="spotlight-title">TrendRadar PK — Automated n8n E-Commerce &amp; Ads Radar</h2>
+          </div>
+          <button type="button" class="btn btn-sm btn-coral js-project-details" data-project="trendradar">
+            <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <span>Inspect Deep Architecture</span>
+          </button>
+        </div>
+
+        <p class="spotlight-desc">
+          Designed specifically for the Pakistani retail market (PKR). Runs an end-to-end <strong>35-node automated pipeline in self-hosted n8n</strong> that executes daily scheduled scraping of Pakistani Shopify stores, Daraz.pk catalogs, and Meta Facebook Ads to detect high-converting winning products.
+        </p>
+
+        <!-- Cartoon Node Workflow Map (6 Balanced Columns) -->
+        <div class="workflow-diagram">
+          <div class="workflow-node">
+            <span class="node-step">Step 01</span>
+            <span class="node-badge" style="background: var(--accent-amber-light);">Cron</span>
+            <div class="node-title">Daily Schedule</div>
+            <div class="node-detail">Fires daily at 00:00 PKT to pull store keywords &amp; targets from Supabase.</div>
+          </div>
+
+          <div class="workflow-node">
+            <span class="node-step">Step 02</span>
+            <span class="node-badge" style="background: var(--accent-sky-light);">Scraper</span>
+            <div class="node-title">Shopify + Daraz</div>
+            <div class="node-detail">Scrapes <code>/products.json</code> and Daraz ranking tables to ingest catalog velocity.</div>
+          </div>
+
+          <div class="workflow-node">
+            <span class="node-step">Step 03</span>
+            <span class="node-badge" style="background: var(--accent-coral-light);">Meta Ads</span>
+            <div class="node-title">Ads Intelligence</div>
+            <div class="node-detail">Tracks active PK ads: ad longevity, uptime streak, and pause/restart frequency.</div>
+          </div>
+
+          <div class="workflow-node">
+            <span class="node-step">Step 04</span>
+            <span class="node-badge" style="background: var(--accent-butter-light);">Engine</span>
+            <div class="node-title">Scoring &amp; Delta</div>
+            <div class="node-detail">Custom JS Code node calculates velocity metrics and deduplicates noise.</div>
+          </div>
+
+          <div class="workflow-node">
+            <span class="node-step">Step 05</span>
+            <span class="node-badge" style="background: var(--accent-matcha-light);">Database</span>
+            <div class="node-title">Supabase &amp; Sheets</div>
+            <div class="node-detail">Atomic upsert into PostgreSQL tables; pushes summaries to Google Sheets.</div>
+          </div>
+
+          <div class="workflow-node">
+            <span class="node-step">Step 06</span>
+            <span class="node-badge" style="background: var(--accent-lavender-light);">Dashboard</span>
+            <div class="node-title">Live Vite UI</div>
+            <div class="node-detail">Dark glassmorphic dashboard showcasing profit margins &amp; winning creatives.</div>
+          </div>
+        </div>
+
+        <!-- Telemetry Metrics -->
+        <div class="spotlight-metrics">
+          <div class="metric-box">
+            <span class="metric-num">35 Nodes</span>
+            <span class="metric-label">Automated n8n Pipeline</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-num">100% Free</span>
+            <span class="metric-label">Zero Recurring API Costs</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-num">3+ Channels</span>
+            <span class="metric-label">Shopify, Daraz &amp; Meta Ads</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-num">PKR (Rs.)</span>
+            <span class="metric-label">Localized Currency Normalizer</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FEATURED PROJECTS WITH CARTOON FILTER TABS
+       ========================================================================= -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      
+      <div class="section-head">
+        <span class="section-badge">
+          <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <span>Featured Work</span>
+        </span>
+        <h2 class="section-title">Things I've Built &amp; Shipped</h2>
+        <p class="section-subtitle">A collection of autonomous workflow bots, production mobile applications, and enterprise desktop systems.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs">
+        <button type="button" class="filter-btn active" data-filter="all">
+          <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <span>All Work (6)</span>
+        </button>
+        <button type="button" class="filter-btn" data-filter="automation">
+          <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <span>n8n &amp; Automations</span>
+        </button>
+        <button type="button" class="filter-btn" data-filter="agent">
+          <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/></svg>
+          <span>AI Bots &amp; Scrapers</span>
+        </button>
+        <button type="button" class="filter-btn" data-filter="mobile">
+          <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+          <span>Mobile &amp; Full-Stack</span>
+        </button>
+        <button type="button" class="filter-btn" data-filter="desktop">
+          <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+          <span>Desktop &amp; Systems</span>
+        </button>
+      </div>
+
+      <!-- Project Grid -->
+      <div class="projects-grid">
+        
+        <!-- CARD 1: TrendRadar PK -->
+        <article class="project-card" data-category="automation">
+          <div class="project-card-header card-header-sky">
+            <span class="project-badge-tag">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              <span>35-Node n8n</span>
+            </span>
+            <span class="project-role">Automation &amp; Data</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-name">TrendRadar PK</h3>
+            <p class="project-summary">Automated e-commerce intelligence system tracking Pakistani Shopify stores, Daraz, and Meta Facebook Ads Library in real-time.</p>
+            
+            <ul class="project-highlights">
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Ad Longevity &amp; Takedown Radar:</strong> Tracks paused/restarted Meta ads—the strongest signal of scaling winning creatives.</span>
+              </li>
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Daily Scheduling:</strong> Automated cron routines in self-hosted n8n syncing to Supabase and Google Sheets.</span>
+              </li>
+            </ul>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">n8n</span>
+              <span class="tech-tag">Supabase</span>
+              <span class="tech-tag">Vite</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Apify</span>
+            </div>
+
+            <div class="project-card-footer">
+              <button type="button" class="btn btn-sm btn-primary js-project-details" data-project="trendradar">
+                <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+                <span>View Architecture</span>
+              </button>
+              <span style="font-size: 0.82rem; font-weight: 700; color: #0284c7;">Self-Hosted 24/7</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 2: ApexOutreach -->
+        <article class="project-card" data-category="agent automation">
+          <div class="project-card-header card-header-amber">
+            <span class="project-badge-tag">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/></svg>
+              <span>Playwright Bot</span>
+            </span>
+            <span class="project-role">AI Multi-Agent</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-name">ApexOutreach Bot</h3>
+            <p class="project-summary">Autonomous multi-agent outbound marketing bot with Google Maps discovery, FMCSA carrier lookups, and WhatsApp Web pacing.</p>
+            
+            <ul class="project-highlights">
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Bayesian Multi-Armed Bandit:</strong> Reinforcement loop dynamically optimizing message template response rates.</span>
+              </li>
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Anti-Ban Engine:</strong> Human-like typing cadence, random session cooling, and E.164 phone sanitization.</span>
+              </li>
+            </ul>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Playwright</span>
+              <span class="tech-tag">PySide6</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">Asyncio</span>
+            </div>
+
+            <div class="project-card-footer">
+              <button type="button" class="btn btn-sm btn-primary js-project-details" data-project="apexoutreach">
+                <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+                <span>View Architecture</span>
+              </button>
+              <span style="font-size: 0.82rem; font-weight: 700; color: #d97706;">Standalone .EXE</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 3: Raasta -->
+        <article class="project-card" data-category="mobile">
+          <div class="project-card-header card-header-coral">
+            <span class="project-badge-tag">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+              <span>Ride-Hailing App</span>
+            </span>
+            <span class="project-role">Lead Developer</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-name">Raasta</h3>
+            <p class="project-summary">inDrive-style ride-hailing and parcel delivery mobile app with real-time fare negotiation and zero-cost mapping.</p>
+            
+            <ul class="project-highlights">
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Zero-Billing Map Stack:</strong> MapLibre GL + OpenFreeMap + Nominatim + OSRM replacing Google Maps / Mapbox.</span>
+              </li>
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Realtime Bidding &amp; Chat:</strong> Sub-second driver-passenger fare negotiation powered by Supabase Realtime.</span>
+              </li>
+            </ul>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">React Native</span>
+              <span class="tech-tag">Expo SDK 58</span>
+              <span class="tech-tag">Supabase</span>
+              <span class="tech-tag">MapLibre GL</span>
+              <span class="tech-tag">OSRM</span>
+            </div>
+
+            <div class="project-card-footer">
+              <button type="button" class="btn btn-sm btn-primary js-project-details" data-project="raasta">
+                <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+                <span>View Architecture</span>
+              </button>
+              <span style="font-size: 0.82rem; font-weight: 700; color: #e11d48;">iOS &amp; Android</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 4: DukaanPOS -->
+        <article class="project-card" data-category="desktop">
+          <div class="project-card-header card-header-matcha">
+            <span class="project-badge-tag">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+              <span>11 Releases</span>
+            </span>
+            <span class="project-role">Full-Stack Desktop</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-name">DukaanPOS</h3>
+            <p class="project-summary">Enterprise retail POS and inventory software deployed in active clothing boutiques and pharmacies.</p>
+            
+            <ul class="project-highlights">
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>ESC/POS Thermal Printing:</strong> Strongly-typed vector barcode generation using ZXing.Net.</span>
+              </li>
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Offline-First Resilience:</strong> SQLite EF Core migrations, concurrency handling, and Firebase cloud backup.</span>
+              </li>
+            </ul>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">C#</span>
+              <span class="tech-tag">.NET WPF</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">ZXing.Net</span>
+              <span class="tech-tag">InnoSetup</span>
+            </div>
+
+            <div class="project-card-footer">
+              <button type="button" class="btn btn-sm btn-primary js-project-details" data-project="dukaanpos">
+                <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+                <span>View Architecture</span>
+              </button>
+              <span style="font-size: 0.82rem; font-weight: 700; color: #059669;">v1.0.11 Shipped</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 5: OmniPulse Studio -->
+        <article class="project-card" data-category="automation">
+          <div class="project-card-header card-header-lavender">
+            <span class="project-badge-tag">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+              <span>Trend Engine</span>
+            </span>
+            <span class="project-role">Web &amp; Scrapers</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-name">OmniPulse Studio</h3>
+            <p class="project-summary">Multi-channel social distribution engine with live trend scrapers (Hacker News, Dev.to, GitHub) &amp; Spintax generator.</p>
+            
+            <ul class="project-highlights">
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>OpenGraph URL Scraper:</strong> Auto-extracts title, meta tags, and hero images from any repository or link.</span>
+              </li>
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Multi-Network Dispatcher:</strong> Automated post blast across Telegram Bot API, Discord, X, and Reddit.</span>
+              </li>
+            </ul>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Express</span>
+              <span class="tech-tag">Webhooks</span>
+              <span class="tech-tag">Spintax</span>
+              <span class="tech-tag">REST</span>
+            </div>
+
+            <div class="project-card-footer">
+              <button type="button" class="btn btn-sm btn-primary js-project-details" data-project="omnipulse">
+                <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+                <span>View Architecture</span>
+              </button>
+              <span style="font-size: 0.82rem; font-weight: 700; color: #7c3aed;">Real-Data Feeds</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 6: Self-Hosted Docker Homelab -->
+        <article class="project-card" data-category="desktop">
+          <div class="project-card-header card-header-amber">
+            <span class="project-badge-tag">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+              <span>Linux Server</span>
+            </span>
+            <span class="project-role">DevOps &amp; Infra</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-name">Docker Homelab</h3>
+            <p class="project-summary">Bare-metal Linux homelab server running containerized services, production n8n instances, and databases.</p>
+            
+            <ul class="project-highlights">
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>24/7 Self-Hosted n8n:</strong> Powers the entire TrendRadar PK automated pipeline with zero cloud bills.</span>
+              </li>
+              <li>
+                <span class="highlight-icon-wrap">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Hardened Security:</strong> Isolated Docker networks, UFW firewall rules, and Cloudflare Tunnel ingress.</span>
+              </li>
+            </ul>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">Debian</span>
+              <span class="tech-tag">Docker Compose</span>
+              <span class="tech-tag">systemd</span>
+              <span class="tech-tag">Bash</span>
+              <span class="tech-tag">Cloudflare</span>
+            </div>
+
+            <div class="project-card-footer">
+              <button type="button" class="btn btn-sm btn-primary js-project-details" data-project="homelab">
+                <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+                <span>View Architecture</span>
+              </button>
+              <span style="font-size: 0.82rem; font-weight: 700; color: #d97706;">99.9% Uptime</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SKILLS DRAWER (CARTOON STICKERS)
+       ========================================================================= -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="skills-wrapper">
+        <div class="section-head" style="margin-bottom: 20px;">
+          <span class="section-badge" style="background: var(--accent-matcha-light);">
+            <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            <span>Toolbox</span>
+          </span>
+          <h2 class="section-title">Technical Skills &amp; Stack</h2>
+          <p class="section-subtitle">Real tools I use to build, automate, and ship software every day.</p>
+        </div>
+
+        <div class="skills-category-grid">
+          
+          <div class="skill-category-box">
+            <h3 class="skill-cat-title">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              <span>Languages</span>
+            </h3>
+            <div class="skills-pills">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">C#</span>
+              <span class="skill-pill">C++</span>
+              <span class="skill-pill">TypeScript</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">Bash / Shell</span>
+            </div>
+          </div>
+
+          <div class="skill-category-box">
+            <h3 class="skill-cat-title">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              <span>Automation &amp; Scraping</span>
+            </h3>
+            <div class="skills-pills">
+              <span class="skill-pill">n8n Workflows</span>
+              <span class="skill-pill">Playwright</span>
+              <span class="skill-pill">Webhooks</span>
+              <span class="skill-pill">REST APIs</span>
+              <span class="skill-pill">Shopify Scrapers</span>
+              <span class="skill-pill">Meta Ads Graph</span>
+              <span class="skill-pill">Spintax Engines</span>
+            </div>
+          </div>
+
+          <div class="skill-category-box">
+            <h3 class="skill-cat-title">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+              <span>Frontend &amp; Mobile</span>
+            </h3>
+            <div class="skills-pills">
+              <span class="skill-pill">React Native</span>
+              <span class="skill-pill">Expo (SDK 58)</span>
+              <span class="skill-pill">React.js</span>
+              <span class="skill-pill">Vite</span>
+              <span class="skill-pill">MapLibre GL</span>
+              <span class="skill-pill">PySide6 (Qt)</span>
+              <span class="skill-pill">HTML5 / CSS3</span>
+            </div>
+          </div>
+
+          <div class="skill-category-box">
+            <h3 class="skill-cat-title">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+              <span>Backend &amp; Cloud</span>
+            </h3>
+            <div class="skills-pills">
+              <span class="skill-pill">Supabase (PostgreSQL)</span>
+              <span class="skill-pill">Supabase Realtime</span>
+              <span class="skill-pill">SQLite / EF Core</span>
+              <span class="skill-pill">Node.js / Express</span>
+              <span class="skill-pill">.NET Core / WPF</span>
+              <span class="skill-pill">Firebase</span>
+              <span class="skill-pill">Project-OSRM</span>
+            </div>
+          </div>
+
+          <div class="skill-category-box">
+            <h3 class="skill-cat-title">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+              <span>Linux &amp; DevOps</span>
+            </h3>
+            <div class="skills-pills">
+              <span class="skill-pill">Debian / Ubuntu / Fedora</span>
+              <span class="skill-pill">Docker &amp; Compose</span>
+              <span class="skill-pill">Self-Hosting</span>
+              <span class="skill-pill">systemd Services</span>
+              <span class="skill-pill">Git &amp; GitHub</span>
+              <span class="skill-pill">InnoSetup</span>
+              <span class="skill-pill">PyInstaller</span>
+            </div>
+          </div>
+
+          <div class="skill-category-box">
+            <h3 class="skill-cat-title">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+              <span>Core Foundations</span>
+            </h3>
+            <div class="skills-pills">
+              <span class="skill-pill">Data Structures (DSA)</span>
+              <span class="skill-pill">Object-Oriented Design</span>
+              <span class="skill-pill">Concurrency &amp; Locks</span>
+              <span class="skill-pill">Database Normalization</span>
+              <span class="skill-pill">Agentic Tool-Calling</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CALL TO ACTION
+       ========================================================================= -->
+  <section id="contact" class="cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2 class="cta-title">Got an automation puzzle or want to build something great?</h2>
+        <p class="cta-desc">
+          I'm currently looking for software engineering and automation internship/junior opportunities. Let's talk code, n8n workflows, or mobile architecture.
+        </p>
+
+        <div class="cta-buttons">
+          <a href="mailto:maaz2501p@gmail.com" class="btn btn-primary">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <span>Say Hello via Email</span>
+          </a>
+          <button type="button" class="btn btn-coral js-copy-email">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+            <span>Copy Email Address</span>
+          </button>
+          <a href="https://github.com/sus4400" target="_blank" rel="noopener noreferrer" class="btn">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            <span>GitHub Profile</span>
+          </a>
+          <a href="Maaz_Bin_Irfan_CV.pdf" download class="btn btn-matcha">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span>Download CV (PDF)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <strong>Maaz Bin Irfan</strong> &bull; BS Computer Science (4th Sem), Rahim Yar Khan, Pakistan
+        </div>
+        <div>
+          Crafted with pure HTML, CSS &amp; JS &bull; 0% AI gradients &bull; Tactile Neo-Comic Design
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       PROJECT DETAILS MODAL DRAWER
+       ========================================================================= -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-container">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      
+      <div style="margin-bottom: 14px;">
+        <span class="project-badge-tag" id="modalBadge" style="background: var(--accent-butter-light);">Badge</span>
+      </div>
+      
+      <h2 id="modalTitle" style="font-size: 1.8rem; font-weight: 800; margin-bottom: 12px; color: var(--ink);">Project Title</h2>
+      
+      <div id="modalStack" class="project-tech-tags" style="margin-bottom: 18px;">
+        <!-- Filled dynamically -->
+      </div>
+
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 0.95rem; font-weight: 800; text-transform: uppercase; margin-bottom: 6px; color: var(--ink-light);">Overview</h4>
+        <p id="modalOverview" style="font-size: 0.95rem; color: var(--ink-muted); line-height: 1.6;"></p>
+      </div>
+
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 0.95rem; font-weight: 800; text-transform: uppercase; margin-bottom: 8px; color: var(--ink-light);">Architecture &amp; Pipeline</h4>
+        <ul id="modalArchitecture" style="list-style: none; padding-left: 0;">
+          <!-- Filled dynamically -->
+        </ul>
+      </div>
+
+      <div>
+        <h4 style="font-size: 0.95rem; font-weight: 800; text-transform: uppercase; margin-bottom: 8px; color: var(--ink-light);">Key Engineering Highlights</h4>
+        <ul id="modalHighlights" style="list-style: none; padding-left: 0;">
+          <!-- Filled dynamically -->
+        </ul>
+      </div>
+
+      <div style="margin-top: 24px; padding-top: 16px; border-top: 2px dashed var(--canvas-dots); display: flex; justify-content: flex-end;">
+        <a href="https://github.com/sus4400" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+          <svg class="icon icon-sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          <span>Check GitHub Repositories</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toastNotice">
+    <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+    <span>Email copied to clipboard!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
